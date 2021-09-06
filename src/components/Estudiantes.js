@@ -156,7 +156,7 @@ export default class Estudiantes extends Component {
                                         <td>{est.telefono}</td>
                                         <td>{est.celular}</td>
                                         <td>{est.direccion}</td>
-                                        <td><img src={est.imagen} width="50px" height="70px"/></td>
+                                        <td><img src={est.imagen} width="50px" height="70px" alt=""/></td>
                                         <button className="btn btn-primary"
                                          onClick={() => {this.SeleccionarEstudiante(est); this.modalInsertar()}}><FontAwesomeIcon icon={faEdit}/></button>
                                          {" "}
