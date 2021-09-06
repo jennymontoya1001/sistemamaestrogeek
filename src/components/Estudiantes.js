@@ -222,7 +222,7 @@ export default class Estudiantes extends Component {
 
                     </ModalBody>
                     <ModalFooter>
-                       {this.state.tipoModal=='insertar'}
+                       {this.state.tipoModal==='insertar'}
                         <button className="btn btn-success"
                         onClick={() => this.peticionesPost()}>
                             Insertar
